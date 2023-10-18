@@ -1,0 +1,124 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #211f1fe2;
+    margin: 0;
+    padding: 0;
+   
+}
+
+header {
+    text-align: center;
+    background-color: #ca7119;
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.filme {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filme img {
+    max-width: 200px;
+    cursor: pointer;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color:#ca7119;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Defina a posição como fixa */
+    bottom: 0; /* Coloque o rodapé na parte inferior da janela de visualização */
+    left: 0;
+    right: 0;
+    margin-top: 20px; /* Adicione margem superior para criar espaço entre o conteúdo e o rodapé */
+}
+#detalhes {
+    background-color:#ca7119;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed; /* Defina a posição como fixa */
+    bottom: 0; /* Coloque o rodapé na parte inferior da janela de visualização */
+    left: 0;
+    right: 0;
+    margin-top: 20px; /* Adicione margem superior para criar espaço entre o conteúdo e o rod*/
+}
+ 
+
+
+/* Estilos de ícones */
+.fa {
+    margin-right: 5px;
+}
+.movie-image {
+    max-width: 200px;
+    cursor: pointer;
+}
+/* Estilos do filme */
+.film-details {
+    text-align: center;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    transition: transform 0.3s;
+    
+    
+}
+
+.film-details:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos do botão "Voltar para a Home" */
+#voltar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #464c1f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Centralizar o conteúdo */
+/* Estilo de destaque */
+.highlight {
+    border: 2px solid #f2f2f2; /* Cor do destaque */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Efeito de sombra */
+}
+.film-details p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+.exibicao {
+    background-color: #ddb852; /* Cor de fundo */
+    border: 1px solid #2f2e2e; /* Borda */
+    border-radius: 5px; /* Borda arredondada */
+    padding: 3px 2px; /* Preenchimento interno */
+    align-items: center;
+    font-weight: bold;
+   
+   
+   
+    background-position: center; /* Centraliza o background */
+} 
